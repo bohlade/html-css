@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticketing</title>
+  </head>
+
+  <body>
+    <div align="center" style="background-color: burlywood; color: wheat">
+      <br />
+      <h1>Ticket for the 2020 Qatar World cup is available here</h1>
+    </div>
+    <form action=" register.php" method="get">
+        <fieldset>
+            <legend> <b>PERSONAL INFORMATION</b> </legend>
+      <label for="name"> ENTER YOUR NAME</label>
+      <input type="text" id="name" name="name" /> <br /><br />
+      <label for="email">ENTER YOUR EMAIL</label>
+      <input type="email" id="email" name="email" /> <br /><br />
+      <label for="payment"> METHOD OF PAYMENT</label>
+      <select name="payment" id="paymnet">
+          <option value="qatari">QATARI</option>
+          <option value="BTC">BTC</option>
+          <option value="DOLLARS">DOLLARS</option>
+          <option value="Ethereum">Ethereum</option>
+          <option value="MASTER-CARD">MASTER-CARD</option>
+      </select> <br><br>
+      <label for="number"> NUMBER OF TICKETS NEEDED</label>
+      <input type="number" id="number" name="number" min="1" max="100"> <br><br>
+      <label for="dob"> ENTER DATE OF BIRTH</label>
+      <input type="date" id="dob" name="dob" /> <br /><br />
+    
+      <label for="countries">COUNTRIES</label>
+      <select name="address" id="countries">
+        <option>NIGERIA</option>
+        <option>GHANA</option>
+        <option>SOUTH AFRICA</option>
+        <option>MAIL</option>
+        <option>TOGO</option>
+      </select>
+     
+      <br /><br />
+      <label for="checkbox"> <b> DO YOU LIVE IN QATAR</b></label> <br />
+      <input type="checkbox" /> YES <input type="checkbox" /> NO<br /><br />
+    </fieldset>
+    </form>
+  </body>
+</html>
